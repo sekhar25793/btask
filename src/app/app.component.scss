@@ -1,0 +1,101 @@
+.glyphicon glyphicon-unchecked{
+  color: white;
+}
+
+.pending{
+  background-color: white;
+  height: 15%;
+  width: 22%;
+  font-size: 70%;
+  border-radius: 10%;
+}
+.container2{
+  border:1%red;
+}
+
+.temp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Active{
+  color: rgb(0, 128, 43);
+  font-size: 53%;
+}
+.waiting{
+  color: red;
+  font-size: 53%;
+}
+.idle{
+  color: red;
+  font-size: 53%;
+}
+
+.confirmed{
+  height: 15%;
+  width: 25%;
+  font-size: 70%;
+}
+#rcorners1 {
+    border-radius: 10%;  
+  }
+
+  #radius{
+    border-radius: 50%; 
+    height: 100%;
+    width: 100%;
+  }
+
+ /* .ram{
+    border-style: solid;
+    border-color: hsla(89, 43%, 51%, 0.3);
+    
+  }*/
+
+  .pic{
+    border-radius: 50%; 
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .flex-container {
+    display: flex;
+    border-radius: 0% 0% 5% 0%;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(64, 30, 255);
+  }
+  .flex-container > img {
+    display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7%;
+    
+  
+  }
+  .flex-container > div {
+
+    text-align: center;
+   
+    font-size: 70%;
+  }
+
+  .flex-container1 {
+    display: flex;
+    border-radius: 0% 7% 0% 0%;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(34, 30, 255);
+  }
+  
+  .flex-container1 > div {
+
+    text-align: center;
+    line-height: 40px;
+    font-size: 70%;
+  }
